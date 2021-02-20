@@ -1,4 +1,4 @@
-package de.richargh.sandbox.spock.wiremock.externalservice
+package de.richargh.sandbox.wiremock.externalservice
 
 data class AuthResult(
         val user: String,

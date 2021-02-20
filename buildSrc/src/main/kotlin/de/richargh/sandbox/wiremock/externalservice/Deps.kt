@@ -1,4 +1,4 @@
-package de.richargh.sandbox.jpms
+package de.richargh.sandbox.wiremock.externalservice
 
 object Deps {
 

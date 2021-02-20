@@ -1,4 +1,4 @@
-package de.richargh.sandbox.spock.wiremock.externalservice
+package de.richargh.sandbox.wiremock.externalservice
 
 import com.github.tomakehurst.wiremock.WireMockServer
 import com.github.tomakehurst.wiremock.client.WireMock.*

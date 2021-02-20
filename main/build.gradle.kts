@@ -1,4 +1,4 @@
-import de.richargh.sandbox.jpms.Deps
+import de.richargh.sandbox.wiremock.externalservice.Deps
 
 plugins {
     kotlin("jvm")

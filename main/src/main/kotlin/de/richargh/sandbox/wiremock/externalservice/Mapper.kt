@@ -1,4 +1,4 @@
-package de.richargh.sandbox.spock.wiremock.externalservice
+package de.richargh.sandbox.wiremock.externalservice
 
 import com.fasterxml.jackson.databind.DeserializationFeature
 import com.fasterxml.jackson.databind.module.SimpleModule

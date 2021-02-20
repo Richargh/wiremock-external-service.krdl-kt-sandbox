@@ -5,7 +5,7 @@
 * Kotlin
 * Java11
 * link:http://wiremock.org/[Wiremock]
-* An authentication api that is stubbed
+* An link:main/src/main/kotlin/de/richargh/sandbox/wiremock/externalservice/HttpAuthService.kt[authentication api] that is stubbed
 * Gradle Kotlin Dsl (Krdl)
 
 == Usage
