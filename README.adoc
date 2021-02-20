@@ -1,0 +1,13 @@
+= Wiremock External Services Sandbox
+
+*Features*
+
+* Kotlin
+* Java11
+* link:http://wiremock.org/[Wiremock]
+* An authentication api that is stubbed
+* Gradle Kotlin Dsl (Krdl)
+
+== Usage
+
+* Build complete project `./gradlew build`
