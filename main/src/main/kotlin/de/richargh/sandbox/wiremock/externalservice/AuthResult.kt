@@ -1,5 +1,14 @@
 package de.richargh.sandbox.wiremock.externalservice
 
-data class AuthResult(
-        val user: String,
-        val isAuthenticated: Boolean)
+sealed class AuthResult: SealedEnum() {
+
+    data class OK(
+            val user: String,
+            val isAuthenticated: Boolean): AuthResult()
+
+    object Timeout: AuthResult()
+
+    object MalformedResponse: AuthResult()
+
+    object UnexpectedFormat: AuthResult()
+}
